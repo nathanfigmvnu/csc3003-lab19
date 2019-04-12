@@ -8,7 +8,7 @@
     <v-container>
       <v-layout row justify-center>
         <v-card class="ma-5" width="600">
-          <Item v-for="item in items" v-bind:text="item" />
+          
         </v-card>
       </v-layout>
     </v-container>

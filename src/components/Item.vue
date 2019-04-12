@@ -2,7 +2,6 @@
   <div>
     <i @click="checked=!checked" v-if="checked" class="material-icons">check_box</i>
     <i @click="checked=!checked" v-if="!checked" class="material-icons">check_box_outline_blank</i>
-    <span>{{text}}</span>
   </div>
 </template>
 
@@ -11,10 +10,7 @@
     name: "Item",
     data: () => ({
       checked: false
-    }),
-    props: {
-      text: String
-    }
+    })
   }
 </script>
 
